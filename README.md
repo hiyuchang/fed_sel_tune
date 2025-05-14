@@ -57,14 +57,13 @@ python src/server.py --dataset=domainnet --model_type=clip --strategy=pro --n_la
 
 If you use this code in your research or find it helpful, please consider citing our paper:
 ```
-@misc{sun2024exploring,
-      title={Exploring Selective Layer Fine-Tuning in Federated Learning}, 
-      author={Yuchang Sun and Yuexiang Xie and Bolin Ding and Yaliang Li and Jun Zhang},
-      year={2024},
-      eprint={2408.15600},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2408.15600}, 
+@inproceedings{sun2025exploring,
+  author    = {Sun, Yuchang and Xie, Yuexiang and Ding, Bolin and Li, Yaliang and Zhang, Jun},
+  title     = {Exploring Selective Layer Fine-Tuning in Federated Learning},
+  booktitle = {Proc. IEEE International Symposium on Information Theory (ISIT)},
+  address   = {Michigan, USA},
+  month     = {June},
+  year      = {2025},
 }
 ```
 
